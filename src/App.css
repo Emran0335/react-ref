@@ -1,0 +1,18 @@
+.box {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+  background-color: #a7539a;
+  border-radius: 50px;
+  transition: 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(225, 212, 225);
+}
+
+.box:hover {
+  background-color: #3d9075;
+}
